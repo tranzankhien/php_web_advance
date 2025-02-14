@@ -1,6 +1,6 @@
 # Giới thiệu
 
-# Ứng dụng quản lý thư viện
+# Web bán đồ nội thất
 
 # Chức năng
 
