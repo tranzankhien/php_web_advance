@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -38,3 +39,17 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+=======
+# Giới thiệu
+
+# phát triển web shop thú cưng
+
+# Chức năng
+
+# Sơ đồ khối (Structural Diagram)
+
+# Sơ đồ thuật toán (Behavioural Diagram)
+
+# Công nghệ (Technologies)
+Dùng PHP Laravel Framework
+>>>>>>> 9cb46130d807cbc0c5233858dbef97b8fc0a25af
