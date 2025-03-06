@@ -1,55 +1,85 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Shop thú cưng Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# 🛒 Pet Store
 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+**Github**: https://github.com/tranzankhien/php_web_advance.git
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🌐 Giới thiệu
+Đây là một website bán thú cưng và sản phẩm liên quan trực tuyến được xây dựng bằng framework PHP Laravel. Website cho phép người dùng duyệt sản phẩm, tìm kiếm, phân loại và đặt hàng. Quản trị viên có thể quản lý người dùng, sản phẩm và các danh mục liên quan.
+
+## ⚙️ Công nghệ sử dụng
+- **Backend:** PHP Laravel
+- **Database:** Local xampp (MySQL)
+- **Frontend:** HTML, CSS, JavaScript (Bootstrap)
+  
+## 🚀 Chức năng chính
+### 🛍️ Người dùng
+- Xem danh sách sản phẩm
+- Tìm kiếm sản phẩm theo tên
+- Lọc sản phẩm theo danh mục
+- Đăng ký, đăng nhập, đặt hàng
+- Quản lý giỏ hàng
+
+### 🔑 Quản trị viên
+- Quản lý sản phẩm: Thêm, sửa, xóa
+- Quản lý đơn hàng: Cập nhật trạng thái, xoá
+  
+## 📦 Cài đặt
+
+### 1️⃣ Clone repository
+```bash
+git clone https://github.com/tranzankhien/php_web_advance.git
+cd SHOPTHUCUNG_LARAVEL
+```
+
+### 2️⃣ Cấu hình môi trường
+Tạo file `.env` và cấu hình các thông số sau:
+```plaintext
+DB_CONNECTION=mysql
+DB_HOST=web_laravel
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=""
+```
+
+### 3️⃣ Cài đặt các package
+```bash
+composer install
+npm install
+```
+
+### 4️⃣ Tạo key và migrate database
+```bash
+php artisan key:generate
+php artisan migrate --seed
+```
 
 
-## Laravel Sponsors
+## 🔍 Hướng dẫn sử dụng
+- **Trang chủ:** Hiển thị danh sách sản phẩm
+- **Tìm kiếm:** Nhập từ khóa vào thanh tìm kiếm
+- **Phân loại:** Chọn danh mục trong menu
+- **Trang quản trị:** `/admin`
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🔑 Tài khoản demo
+- **Admin:** `admin@admin.com` / `123`
 
-### Premium Partners
-- **abc**
+## 📖 Cấu trúc thư mục
+```plaintext
+├── app
+│   ├── Http\Controllers
+│   ├── Models
+│   └── Services
+├── database
+│   └── migrations
+├── resources
+│   ├── views
+│   └── js
+├── routes
+│   └── web.php
+└── public
+```
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-=======
-# Giới thiệu
-
-# phát triển web shop thú cưng
-
-# Chức năng
-
-# Sơ đồ khối (Structural Diagram)
-
-# Sơ đồ thuật toán (Behavioural Diagram)
-
-# Công nghệ (Technologies)
-Dùng PHP Laravel Framework
->>>>>>> 9cb46130d807cbc0c5233858dbef97b8fc0a25af
+## ⚠️ Lưu ý
+- Đảm bảo mở kết nối đến cơ sở dữ liệu trên Aiven.
+- Bảo mật các biến môi trường khi deploy lên server.
